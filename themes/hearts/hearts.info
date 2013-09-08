@@ -1,0 +1,8 @@
+name = Hearts
+description = Basic HR Tools theme
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/styles.css

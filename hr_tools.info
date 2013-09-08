@@ -1,0 +1,154 @@
+; Packaging information for hr_tools
+name = "HR Tools"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Access control
+dependencies[] = acl
+dependencies[] = content_access
+dependencies[] = content_access_rules
+; Administration
+dependencies[] = actions_permissions
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = bulk_export
+dependencies[] = ctools
+dependencies[] = ctools_access_ruleset
+dependencies[] = ctools_custom_content
+dependencies[] = page_manager
+dependencies[] = pm_existing_pages
+dependencies[] = stylizer
+dependencies[] = views_content
+; Context
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = context_ui
+; Contextual Administration
+dependencies[] = context_admin
+dependencies[] = context_admin_vbo
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_tools
+dependencies[] = date_views
+; Fields
+dependencies[] = addressfield
+dependencies[] = content_taxonomy
+dependencies[] = content_taxonomy_autocomplete
+dependencies[] = email
+dependencies[] = entityreference
+dependencies[] = field_collection
+dependencies[] = field_permissions
+dependencies[] = link
+; Flags
+dependencies[] = flag
+
+; HR Tools Features
+dependencies[] = hr_tools_vocabularies
+dependencies[] = hr_tools_search_database_server
+dependencies[] = hr_tools_job
+; dependencies[] = hr_tools_job_search
+dependencies[] = hr_tools_demo
+dependencies[] = hr_tools_menus
+dependencies[] = hr_tools_frontpage
+dependencies[] = hr_tools_register
+dependencies[] = hr_tools_resume
+; dependencies[]=  hr_tools_resume_search
+; Solr: will not be enabled by default!
+; dependencies[] = hr_tools_search_solr_server
+
+; Message
+dependencies[] = message
+
+; Migrate
+dependencies[] = migrate
+dependencies[] = migrate_extras
+
+; Other
+dependencies[] = backup_migrate
+dependencies[] = block_class
+dependencies[] = colorbox
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = profile2
+dependencies[] = role_export
+dependencies[] = strongarm
+dependencies[] = term_level
+dependencies[] = token
+; Panels
+dependencies[] = panels
+dependencies[] = panels_ipe
+dependencies[] = panels_mini
+dependencies[] = panels_node
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = rules_autotag
+dependencies[] = rules_link
+dependencies[] = rules_scheduler
+; Search
+dependencies[] = search_api
+dependencies[] = search_api_db
+dependencies[] = search_api_facetapi
+dependencies[] = search_api_saved_searches
+dependencies[] = search_api_solr
+dependencies[] = search_api_views
+; Search Toolkit
+dependencies[] = current_search
+dependencies[] = facetapi
+dependencies[] = facetapi_pretty_paths
+; Taxonomy
+dependencies[] = taxonomy_csv
+dependencies[] = taxonomy_manager
+; User interface
+dependencies[] = autocomplete_deluxe
+dependencies[] = ckeditor
+dependencies[] = ckeditor_link
+dependencies[] = imce
+; Views
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = semanticviews
+; Features
+dependencies[] = features
+
+theme          = hearts
